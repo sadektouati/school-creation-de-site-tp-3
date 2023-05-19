@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedge : Restaurant Vegan</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <span>
+            <!-- Zone recherche ===============================================-->
+            <form class="trouver-restaurant">
+                <input type="text" name="ville" placeholder="Trouvez un restaurant">
+                <input type="submit" name="trouver-ville" value="">
+            </form>
+            <!-- navigation =============================================== -->
+            <nav>
+                <span class="logo">
+                    <a href="index.html"></a>
+                    <span>Restaurant Végan</span>
+                </span>
+
+                <button class="fermer_menu">Menu</button>
+                <div>
+                    <ul>
+                        <!-- sous menu -->
+                        <li>
+                            <button>Menu</button>
+                            <ul>
+                                <li><a href="#">Brunch</a></li>
+                                <li><a href="#">Dîner</a></li>
+                                <li><a href="#">Souper</a></li>
+                                <li><a href="#">Boisson</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <!-- sous menu -->
+                        <li>
+                            <button>Restaurants</button>
+                            <ul>
+                                <li><a href="#">Trois-Rivières</a></li>
+                                <li><a href="#">Drummondville</a></li>
+                                <li><a href="val-jalbert.html">Val-Jalbert</a></li>
+                                <li><a href="#">Dix30</a></li>
+                                <li><a href="#">Toronto</a></li>
+                                <li><a href="#">Berlin</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <!-- sous menu -->
+                        <li>
+                            <button>À propos</button>
+                            <ul>
+                                <li><a href="notre-philosophie.html">Philisophie</a></li>
+                                <li><a href="#">Franchises</a></li>
+                                <li><a href="#">Presse</a></li>
+                                <li><a href="#">Carrière</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <a href="">Réservation</a>
+                    <a href="#">Commande en ligne</a>
+                </div>
+
+            </nav>
+        </span>
+
+        <picture class="fond">
+            <!-- <source media="(min-width: 1150px)" srcset="assets/imgs/epices-1700.jpg">
+            <source media="(min-width: 600px)" srcset="assets/imgs/epices-1150.jpg">
+            <source srcset="assets/imgs/epices-600.jpg"> -->
+            <img src="assets/imgs/hero-image.jpg" alt="spaghetti, tomates et ail sur table restaurant vedge">
+        </picture>
+        <div>
+            <h1>Savourez les meilleurs plats dans le respect de la nature</h1>
+            <a class="appel-action" href="#">Découvrez notre menu</a>
+        </div>
+
+        <picture>
+            <source media="(min-width: 600px)" srcset="assets/imgs/mimosa-780.png">
+            <source media="(min-width: 400px)" srcset="assets/imgs/mimosa-600.png">
+            <source srcset="assets/imgs/mimosa-500.png">
+            <img src="assets/imgs/mimosa-1700.png" alt="mimosa a prix réduit">
+        </picture>
+        <div class="promotion">
+            <h2>deux mimosas<span>15$</span></h2>
+            <span>Pendant toute l'heure du lunch</span>
+            <a href="#">Voir nos promotions</a>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="flex-cartes">
+            <h2>Restaurants en vedette</h2>
+
+            <article>
+
+                <div>
+                    <a href="#">Trois-Rivières</a>
+                    <img src="assets/imgs/villeTroisRiviere.jpg" alt="Trois-Rivière">
+                </div>
+
+                <div>
+                    <a href="#">Drummondville</a>
+                    <img src="assets/imgs/villeDrummond.jpg" alt="Drummondville">
+                </div>
+
+                <div>
+                    <a href="#">Val-Jalbert</a>
+                    <img src="assets/imgs/villeValJalbert.jpg" alt="Val-Jalbert">
+                </div>
+
+                <div>
+                    <a href="#">Dix30</a>
+                    <img src="assets/imgs/villeDix30.jpg" alt="Dix30">
+                </div>
+
+                <div>
+                    <a href="#">Toronto</a>
+                    <img src="assets/imgs/villeToronto.jpg" alt="Toronto">
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#">Berlin</a>
+                    <img src="assets/imgs/villeBerlin.jpg" alt="Berlin">
+                </div>
+
+            </article>
+            <a href="#">Voir tout nos restaurants</a>
+        </section>
+
+        <section class="grille-2">
+
+            <article>
+                <h2>Vous voulez établir votre propre restaurant?</h2>
+                <div>Laissez-nous convaincre de développer votre propre franchise <span>Vedge</span></div>
+                <a class="appel-action" href="#">Contactez-nous</a>
+            </article>
+
+            <img src="assets/imgs/villeToronto.jpg" alt="Toronto">
+
+        </section>
+
+        <section class="infolettre">
+
+            <h3>Inscrivez-vous à notre infolettre et profitez des offres et avantages exclusifs</h3>
+
+            <form>
+                <input type="text" name="courriel" placeholder="Votre courriel">
+                <button class="appel-action" type="submit">S'inscrire</button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div>
+            <a href="index.html">
+                <span class="logo"></span><span>Restaurant Végan</span>
+            </a>
+        </div>
+
+        <div>
+            <a href="#">Menu</a>
+            <a href="#">Restaurant</a>
+            <a href="#">Réservation</a>
+            <a href="">Commande en ligne</a>
+        </div>
+
+        <div>
+            <a href="notre-philosophie.html">Philosophie</a>
+            <a href="#">Carrières</a>
+            <a href="#">Franchises</a>
+            <a href="">Presse</a>
+        </div>
+
+        <div class="sociaux">
+            <a href="#" class="twitter"></a>
+            <a href="#" class="facebook"></a>
+            <a href="#" class="pinterest"></a>
+        </div>
+
+        <div>
+            <p>&copy; Groupe Vedge inc. Tous droits réservés</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+
+
+Argumentaire:
+
+- En terme de design, On a décidé de respecter les grandes lignes du travail des collègues surtout sur les grandes écrans.
+- On a respecté surtout la hiérarchisation d'information sur tous les écrans.
+- On a changé les espacements pour qu'ils soit plus coherents et harmonieux.
+- On a aussi changé les polices utilisé par Annabelle pour autres qui sont plus lisibles.
+- On a changé un peu les couleurs.
+- Le HTML original n'est pas strictement semantique, donc on a fait des changement selon besoin.
+- On a décidé de réecrire tous le CSS pour nous permettre une meilleure organisation.
